@@ -15,6 +15,6 @@ app.use(bodyParser.json())
 
 app.use(router)
 
-app.listen(3000, function() {
+app.listen(3000, function () {
     console.log('running...')
 })
